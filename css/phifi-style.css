@@ -1061,4 +1061,6 @@ input[type=email]:hover { border-color: #f05c42; }
 .main-post h4 { font-size: 20px; line-height: 26px; position: absolute; bottom: 7px; left: 0; width: 100%; z-index: 99; padding: 0 20px; margin-bottom: 0; color: #ffffff; }
 .objects-main { position: absolute; top: -266%; left: -290px; }
 .iq-abouimg img, .iq-img img { border-radius: 5px; }
+
 .auto-container input[type=email] { color: #ffffff; }
+.client-img{width:135px;}
