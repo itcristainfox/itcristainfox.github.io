@@ -542,8 +542,8 @@ position: static; max-width: 1375px; }
  Partner
 -----------------------------------------------------------------------*/
 .owl-carousel .iq-partner-box img { width: auto; margin: 0 auto; text-align: center; }
-.iq-partner-box img { opacity: .4; transition: all .3s ease-in-out; }
-.iq-partner-box img:hover { opacity: 1; }
+.iq-partner-box img { opacity: 1; transition: all .3s ease-in-out; }
+.iq-partner-box img:hover { opacity: 0.5; }
 
 /*--------------------------------------------------------------
   Portfolio
@@ -1064,3 +1064,4 @@ input[type=email]:hover { border-color: #f05c42; }
 
 .auto-container input[type=email] { color: #ffffff; }
 .client-img{width:135px;}
+
