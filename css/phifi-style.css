@@ -369,7 +369,7 @@ Banner
 .iq-service-style1  .iq-iconbg:before { width: 70px; height: 70px; top: 38px; left: 51px; border-radius: 50%; position: absolute; content: ''; background-image: -webkit-linear-gradient(45deg, #fefeff00 0%, #0000001a 100%); z-index: 1; transition: all 500ms ease; }
 .iq-service-style1:hover .iq-iconbg:before { position: absolute; content: ''; background-image: -webkit-linear-gradient(45deg, #fefeff00 0%, #ff45552b 100%); width: 90px; height: 90px; top: 38px; left: 51px; border-radius: 50%; z-index: 1; transition: all 500ms ease; }
 .iq-service-style1  .iq-iconbg img { margin-bottom: 30px; }
-.iq-service-style1  .iq-iconbg i { font-size: 50px; padding: 30px; }
+.iq-service-style1  .iq-iconbg svg { font-size: 50px; padding: 30px; }
 .iq-service-style1:hover .iq-iconbg i { color: #f05c42; }
 .iq-service-style1 .iq-content .iq-title { margin-bottom: 15px; }
 .iq-service-style1 .iq-image { position: absolute; top: -130px; right: 0; opacity: 0; }
@@ -1064,4 +1064,5 @@ input[type=email]:hover { border-color: #f05c42; }
 
 .auto-container input[type=email] { color: #ffffff; }
 .client-img{width:135px;}
+
 
