@@ -306,7 +306,7 @@ Banner
 /* Banner */
 .iq-banner { position: relative; overflow: hidden; background: #fed4c8; }
 .iq-banner .banner-text { z-index: 9; position: relative; margin-top: 16%; margin-bottom: 0%; }
-.iq-banner .banner-text h1 { font-size: 4.300em; line-height: normal; margin-bottom: 15px; }
+.iq-banner .banner-text h1 { font-size: 4.300em; line-height: 1.25; margin-bottom: 15px; }
 .iq-banner .iq-text { margin-top: 20px; font-size: 170px; line-height: 100px; color: #ffffff; text-transform: uppercase; font-weight: 900; z-index: -2; text-align: right; letter-spacing: 10px; }
 .iq-banner .banner-img { width: 110%; }
 .iq-banner .iq-banner-video { position: relative; top: 20%; }
@@ -1064,5 +1064,6 @@ input[type=email]:hover { border-color: #f05c42; }
 
 .auto-container input[type=email] { color: #ffffff; }
 .client-img{width:135px;}
+
 
 
