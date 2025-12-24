@@ -201,7 +201,7 @@ header.header-2 { background: #2b2b2b; }
 Footer
 --------------------------------------------------------------*/
 footer { padding-top: 40px; position: relative; }
-footer .footer-topbar { background: #f05c42; padding: 45px 0; margin-bottom: 50px; }
+footer .footer-topbar { background: #efefef; padding: 45px 0; margin-bottom: 50px; }
 footer .footer-top, footer .footer-top .widget ul li a, footer .calendar_wrap caption { color: #ffffff; }
 footer .footer-top .widget ul { padding: 0; margin: 0; }
 footer .footer-top .widget ul.iq-contact { padding-left: 0px; }
@@ -1067,6 +1067,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .rj-clint{margin:auto;} 
 
 .iq-portfolio-icon{display:none;}	
+
 
 
 
