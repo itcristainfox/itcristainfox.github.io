@@ -112,7 +112,7 @@ input[type=checkbox] { width: auto; margin-right: 10px; line-height: 2; height: 
 /*---------------------------------------------------------------------
  Header
 -----------------------------------------------------------------------*/
-header { position: fixed; background: #FFF; display: inline-block; width: 100%; top: 0; left: 0; z-index: 999; padding: 15px 0; }
+header { position: fixed; background: #fff; display: inline-block; width: 100%; top: 0; left: 0; z-index: 999; padding: 15px 0; }
 header.header-main{background: transparent;}
 header .container-fluid { padding: 0 100px; }
 .navbar-light .navbar-toggler{border-radius: 5px;}
@@ -1067,6 +1067,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .rj-clint{margin:auto;} 
 
 .iq-portfolio-icon{display:none;}	
+
 
 
 
