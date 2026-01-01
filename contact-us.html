@@ -434,26 +434,36 @@
       <script src='js/wow.min.js'></script>
       <!--  Custom JavaScript -->
       <script src="js/custom.js"></script>
-     <script>
+<script>
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.wpcf7-form');
-  const scriptURL = "https://script.google.com/macros/s/AKfycbw8fkF9UcdNkBVQf9eIp7bFUeV0FxmIOIeCEe30BWTBaV4grAwsBQTKeN3CFjY628eQ/exec"; // <-- yahan paste karo
+  const scriptURL = "YOUR_WEB_APP_URL"; // <-- yahan paste karo
 
-  form.addEventListener('submit', function (e) {
+  form.addEventListener('submit', e => {
     e.preventDefault();
 
     const formData = new FormData(form);
 
     fetch(scriptURL, { method: 'POST', body: formData })
-      .then(response => alert("Form Submitted Successfully!"))
-      .catch(error => alert("Error! Please try again."));
+      .then(res => res.json())
+      .then(data => {
+        if (data.result === "success") {
+          alert("Form Submitted Successfully!");
+          form.reset();
+        } else {
+          alert("Failed to submit. Try again.");
+        }
+      })
+      .catch(err => alert("Network Error — Service not connected."));
   });
 });
 </script>
 
+
    </body>
 
 </html>
+
 
 
 
