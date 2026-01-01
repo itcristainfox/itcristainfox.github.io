@@ -13,7 +13,7 @@ Design and Developed by: iqonicthemes.in
 }
 @media(max-width:1600px) {
   .iq-banner .waves-box { position: absolute; top: 28%; left: 50%; margin-left: 0px; }
-  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 40%; }
+  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 40%; top:0; }
 }
 @media(max-width:1399px) { }
 @media(max-width:1365px) {
@@ -234,4 +234,5 @@ Design and Developed by: iqonicthemes.in
   .iq-banner .banner-text h1 { font-size: 30px; }
   .iq-banner .banner-text p { font-size: 14px; }
   .iq-banner .banner-text { margin-top: 25%; }
+
 }
