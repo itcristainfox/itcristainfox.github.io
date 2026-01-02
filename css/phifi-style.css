@@ -1069,6 +1069,11 @@ input[type=email]:hover { border-color: #f05c42; }
 .iq-portfolio-icon{display:none;}	
 
 
+.highlight-word{
+  color:#ea5e17;
+  font-weight:700;
+}
+
 
 
 
