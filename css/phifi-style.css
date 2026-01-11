@@ -322,7 +322,7 @@ Banner
 .iq-banner .banner-objects .banner-objects-01 { position: absolute; top: 0; right: 0; left: 50%; }
 .iq-banner .banner-objects .banner-objects-01 img { width: 100%; }
 .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 40%; top: 10%; }
-.iq-banner .banner-responsive { display: none; }
+.iq-banner .banner-responsive { display: block; }
 .iq-banner .banner-text p span { display: block; }
 
 /* Banner 2 */
@@ -1072,6 +1072,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .highlight-word{
   color:#ea5e17;
 }
+
 
 
 
