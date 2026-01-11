@@ -309,7 +309,7 @@ Banner
 .iq-banner .banner-text h1 { font-size: 4.300em; line-height: 1.25; margin-bottom: 15px; }
 .iq-banner .iq-text { margin-top: 20px; font-size: 170px; line-height: 100px; color: #ffffff; text-transform: uppercase; font-weight: 900; z-index: -2; text-align: right; letter-spacing: 10px; }
 .iq-banner .banner-img { width: 110%; }
-.iq-banner .iq-banner-video { position: relative; top: 20%; }
+.iq-banner .iq-banner-video { position: relative; top:0; }
 .iq-banner .iq-video { border: 1px solid #ffffff; background: #ffffff; display: inline-block; width: 60px; height: 60px; text-align: center; font-size: 29px; color: #f05c42; float: left; border-radius: 100%; line-height: 2.1; z-index: 9; position: relative; }
 .iq-banner .iq-video i { margin-left: 5px; }
 .iq-banner .waves-box { position: absolute; top: 28%; left: 50%; margin-left: 50px; }
@@ -1072,6 +1072,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .highlight-word{
   color:#ea5e17;
 }
+
 
 
 
