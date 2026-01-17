@@ -374,7 +374,7 @@ Banner
 .iq-service-style1 .iq-content .iq-title { margin-bottom: 15px; }
 .iq-service-style1 .iq-image { position: absolute; top: -130px; right: 0; opacity: 0; }
 .iq-service-style1:hover .iq-image { opacity: 1; }
-.iq-service-style1:hover { background: #fed4c8; box-shadow: 0px 16px 20px 0px rgba(255, 98, 0, 0.1); }
+.iq-service-style1:hover { background: #fed4c8; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
 .iq-service-style1:hover:after { content: ""; height: 82px; width: 60px; position: absolute; top: 0px; right: 0px; padding-left: 24px; }
 
 /*service-style2*/
@@ -1086,6 +1086,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
