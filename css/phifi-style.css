@@ -1070,12 +1070,23 @@ input[type=email]:hover { border-color: #f05c42; }
 
 
 .highlight-word{
-  color:#ea5e17;
+  background: linear-gradient(180deg, #0048bd 0%, #176fe2 100%);
+    
+    /* Ye properties text ke andar gradient dikhane ke liye zaruri hain */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    /* Font weight thoda bold rakhein taaki gradient saaf dikhe */
+    font-weight: bold;
+    display: inline-block;
 }
 
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
