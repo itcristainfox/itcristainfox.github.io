@@ -464,7 +464,7 @@ Banner
 .iq-counter-block .auto-container { padding: 0px 15px; margin: 0 auto; position: static; max-width: 1200px; }
 .iq-counter-block .inner-container { padding-bottom: 50px; padding-left: 80px; position: relative; padding-top: 55px; }
 .iq-counter-block .inner-container .iq-pattern-style { position: absolute; width: 1000%; height: 100%; left: 0px; top: 0px; }
-.iq-counter-block .inner-container .iq-pattern-style:before { right: 0px; bottom: 0px; background-color: #feefea; position: absolute; content: ''; left: 0px; top: 0px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.iq-counter-block .inner-container .iq-pattern-style:before { right: 0px; bottom: 0px; background-color: #f8fafc; position: absolute; content: ''; left: 0px; top: 0px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
 .iq-subscribe-block .auto-container {    /* padding: 0px 15px; */
 
 	/* margin: 0 auto; */
@@ -1086,6 +1086,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
