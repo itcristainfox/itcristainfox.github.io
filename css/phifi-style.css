@@ -304,7 +304,7 @@ Banner
 --------------------------------------------------------------*/
 
 /* Banner */
-.iq-banner { position: relative; overflow: hidden; background: #feefea; }
+.iq-banner { position: relative; overflow: hidden; background: #f8fafc; }
 .iq-banner .banner-text { z-index: 9; position: relative; margin-top: 10%; margin-bottom: 0%; }
 .iq-banner .banner-text h1 { font-size: 4.300em; line-height: 1.25; margin-bottom: 15px; }
 .iq-banner .iq-text { margin-top: 20px; font-size: 170px; line-height: 100px; color: #ffffff; text-transform: uppercase; font-weight: 900; z-index: -2; text-align: right; letter-spacing: 10px; }
@@ -1076,6 +1076,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
