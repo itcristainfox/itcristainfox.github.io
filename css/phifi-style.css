@@ -1073,7 +1073,9 @@ input[type=email]:hover { border-color: #f05c42; }
   color:#ea5e17;
 }
 
-
+.banner-text .row .col-md-12{
+margin:auto;
+}
 
 
 
