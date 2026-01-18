@@ -102,7 +102,7 @@ Background  color
 Button
 ---------------------------------*/
 .btn-container { text-align: right }
-.iq-button.btn-white { background: #ffffff; color: #0b0b0b; box-shadow: none; }
+.iq-button.btn-white { background: #f05c42; color: #0b0b0b; box-shadow: none; }
 .iq-button.btn-white span { color: #2b2b2b; }
 .iq-button.btn-white:focus span{color: #ffffff;}
 .iq-button.btn-white:hover span { color: #ffffff; }
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
