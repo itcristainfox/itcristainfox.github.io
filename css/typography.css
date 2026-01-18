@@ -112,7 +112,7 @@ Button
 .iq-button.btn-white:before, .iq-button.btn-white:after { content: ''; background: #2b2b2b; }
 .iq-gradient-btn { background-image: linear-gradient(to right, #ec2e47 0%, #ee3e3e 51%, #ee4e34 100%); }
 .iq-gradient-btn:hover { color: #ffffff; background-position: right center; }
-.iq-button { cursor: pointer; background: linear-gradient(180deg, #0048bd 0%, #176fe2 100%); color: #ffffff; line-height: 2; position: relative; z-index: 0; box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34); overflow: hidden; display: inline-block; padding: 15px 80px 15px 30px; font-size: 16px; border-radius: 4px; text-transform: capitalize; box-shadow: 0px 16px 20px 0px rgba(255, 98, 0, 0.1); }
+.iq-button { cursor: pointer; background: #f05c42; color: #ffffff; line-height: 2; position: relative; z-index: 0; box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34); overflow: hidden; display: inline-block; padding: 15px 80px 15px 30px; font-size: 16px; border-radius: 4px; text-transform: capitalize; box-shadow: 0px 16px 20px 0px rgba(255, 98, 0, 0.1); }
 .iq-button span { color: #fff; display: block; text-transform: capitalize; transform: scaleX(0.9); letter-spacing: 3px; transform-origin: center left; transition: color 0.3s ease; position: relative; z-index: 1; font-size: 16px; font-family: 'Bebas Neue', cursive; }
 .iq-button em { position: absolute; height: 1px; background: #fff; width: 47%; right: 30px; top: 46%; transform: scaleX(0.25); transform-origin: center right; transition: all 0.3s ease; z-index: 1; }
 .iq-button:before, .iq-button:after {z-index: -1; content: ''; background: #0b0b0b; height: 50%; width: 0; position: absolute; transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
