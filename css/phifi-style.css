@@ -1070,7 +1070,7 @@ input[type=email]:hover { border-color: #f05c42; }
 
 
 .highlight-word{
-  background: linear-gradient(180deg, #0048bd 0%, #176fe2 100%);
+  background: #f05c42;
     
     /* Ye properties text ke andar gradient dikhane ke liye zaruri hain */
     -webkit-background-clip: text;
@@ -1086,6 +1086,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
