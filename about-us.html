@@ -19,12 +19,10 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
       <style>
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
 
 .it-about-new-layout {
     background: #ffffff;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
 /* Banner Styling */
@@ -136,15 +134,46 @@
     line-height: 1.6;
 }
 
-/* Mobile Responsive */
-@media (max-width: 992px) {
-    .it-icon-section-full-width { grid-template-columns: repeat(2, 1fr); }
-    .main-heading { font-size: 2.2rem; }
-    .about-top-banner { height: 300px; }
+/* Icons Grid Styling */
+.it-icon-section-full-width {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Desktop par 4 columns */
+    gap: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 60px;
 }
 
-@media (max-width: 600px) {
-    .it-icon-section-full-width { grid-template-columns: 1fr; }
+/* Mobile Responsive Scroll Logic */
+@media (max-width: 768px) {
+    .it-icon-section-full-width {
+        display: flex; /* Grid hata kar Flex kiya taaki line mein rahein */
+        overflow-x: auto; /* Horizontal scroll enable kiya */
+        scroll-snap-type: x mandatory; /* Smooth scroll snap */
+        gap: 20px;
+        padding-bottom: 20px; /* Scrollbar ke liye thodi jagah */
+        -webkit-overflow-scrolling: touch; /* iOS par smooth scroll ke liye */
+        border-top: 1px solid #eee;
+        padding-top: 40px;
+    }
+
+    /* Scrollbar ko hide karne ke liye (Optional) */
+    .it-icon-section-full-width::-webkit-scrollbar {
+        display: none;
+    }
+    .it-icon-section-full-width {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .icon-card {
+        min-width: 260px; /* Mobile par card ki width fix rakhi taaki scroll ho sake */
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        background: #fcfcfc;
+        padding: 25px 20px;
+        border-radius: 20px;
+        border: 1px solid #f0f0f0;
+    }
 }
       </style>
    </head>
@@ -745,6 +774,7 @@
    </body>
 
 </html>
+
 
 
 
