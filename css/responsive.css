@@ -9,7 +9,7 @@ Design and Developed by: iqonicthemes.in
 }
 @media(max-width:1920px) {
   .iq-banner .waves-box { left: inherit; right: 0; }
-  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 49%; }
+  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 35%; }
 }
 @media(max-width:1600px) {
   .iq-banner .waves-box { position: absolute; top: 28%; left: 50%; margin-left: 0px; }
@@ -236,3 +236,4 @@ Design and Developed by: iqonicthemes.in
   .iq-banner .banner-text { margin-top: 25%; }
 
 }
+
