@@ -18,6 +18,138 @@
       <link rel='stylesheet' href='css/phifi-style.css' />
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+.it-agency-about {
+    padding: 100px 0;
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.it-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.it-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+/* Visuals */
+.it-visual-column { flex: 1; min-width: 400px; }
+.image-box { position: relative; }
+.image-box img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+.experience-tag {
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    background: #0062ff;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 98, 255, 0.3);
+}
+.experience-tag span { font-weight: 800; display: block; font-size: 1.2rem; }
+.experience-tag p { margin: 0; font-size: 0.9rem; opacity: 0.9; }
+
+/* Content Side */
+.it-content-column { flex: 1.2; min-width: 450px; }
+
+.sub-heading {
+    display: block;
+    color: #0062ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.highlight { color: #0062ff; }
+
+.main-description p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Value Props */
+.professional-edge { margin-top: 40px; }
+.professional-edge h3 {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.professional-edge h3 span { color: #888; font-weight: 400; font-size: 1rem; }
+
+.edge-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.edge-item { display: flex; gap: 15px; }
+.edge-icon {
+    font-size: 1.5rem;
+    min-width: 50px;
+    height: 50px;
+    background: #f0f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.edge-text strong { display: block; margin-bottom: 5px; color: #111; }
+.edge-text p { margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5; }
+
+/* CTA */
+.it-cta-btn {
+    display: inline-block;
+    padding: 18px 40px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.it-cta-btn:hover {
+    background: #0062ff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 98, 255, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .it-row { flex-direction: column; }
+    .it-visual-column, .it-content-column { min-width: 100%; }
+    .main-heading { font-size: 2.2rem; }
+    .edge-grid { grid-template-columns: 1fr; }
+}
+      </style>
    </head>
    <body>
       <!-- loading -->
@@ -130,6 +262,82 @@
          </div>
       </div>
       <!-- Breadcrumb End -->
+
+
+
+   <!-- about us content -->
+      <section class="it-agency-about">
+    <div class="it-container">
+        <div class="it-row">
+            
+            <div class="it-visual-column">
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80" alt="Professional IT Growth">
+                    <div class="experience-tag">
+                        <span>Reliable Partner</span>
+                        <p>Results Driven</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="it-content-column">
+                
+                <span class="sub-heading">Driving Results through Digital Innovation</span>
+                
+                <h2 class="main-heading">Empowering Brands with <span class="highlight">Strategic Tech</span> & Data-Driven Growth.</h2>
+                
+                <div class="main-description">
+                    <p>Building a website is easy, but building a <strong>business tool</strong> that generates revenue requires a deeper understanding of technology and consumer behavior. At <strong>[Your Brand Name]</strong>, we move beyond generic templates to deliver high-performance solutions that are fast, secure, and SEO-ready from day one.</p>
+                    
+                    <p>We don’t believe in one-size-fits-all. Our approach is purely consultative—we dive into your business goals, identify technical bottlenecks, and craft a digital roadmap that ensures long-term scalability. From seamless Shopify architectures to complex custom integrations, we turn technical complexity into a competitive advantage for your brand.</p>
+                </div>
+
+                <div class="professional-edge">
+                    <h3>Why Partner With Us? <span>(The Professional Edge)</span></h3>
+                    
+                    <div class="edge-grid">
+                        <div class="edge-item">
+                            <div class="edge-icon">⚡</div>
+                            <div class="edge-text">
+                                <strong>Performance-First Engineering</strong>
+                                <p>We optimize every millisecond. Our sites are built for speed, ensuring lower bounce rates and higher Google rankings.</p>
+                            </div>
+                        </div>
+
+                        <div class="edge-item">
+                            <div class="edge-icon">📈</div>
+                            <div class="edge-text">
+                                <strong>Conversion-Centric SEO</strong>
+                                <p>We don’t just drive traffic; we attract 'Ready-to-Buy' customers by aligning your content with search intent.</p>
+                            </div>
+                        </div>
+
+                        <div class="edge-item">
+                            <div class="edge-icon">🛠</div>
+                            <div class="edge-text">
+                                <strong>Scalable Shopify Ecosystems</strong>
+                                <p>Whether it’s custom liquid coding or app development, we build stores that grow as your order volume multiplies.</p>
+                            </div>
+                        </div>
+
+                        <div class="edge-item">
+                            <div class="edge-icon">🤝</div>
+                            <div class="edge-text">
+                                <strong>Transparent Collaboration</strong>
+                                <p>No technical jargon. Just clear communication, milestone-based delivery, and a partnership built on trust.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#contact" class="it-cta-btn">Start Your Transformation Today</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+   <!-- about us content -->
+      
       <section class="iq-about-section overview-block-pt">
          <div class="container">
             <div class="row">
@@ -566,6 +774,7 @@
    </body>
 
 </html>
+
 
 
 
