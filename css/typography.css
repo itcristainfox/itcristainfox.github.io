@@ -92,7 +92,7 @@ Background  color
 .gray-bg { background: #F5F7FD; }
 .light-orange-bg { background: #f8fafc }
 .black-bg { background: ##0b0b0b; }
-.drak-bg { background: #1e3b41; }
+.drak-bg { background: #000; }
 .pink-bg { background: #feeeef; }
 
 /*Gradient-Color*/
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
