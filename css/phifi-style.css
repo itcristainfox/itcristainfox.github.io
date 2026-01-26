@@ -201,7 +201,7 @@ header.header-2 { background: #2b2b2b; }
 Footer
 --------------------------------------------------------------*/
 footer { padding-top: 40px; position: relative; }
-footer .footer-topbar { background: #feefea; padding: 45px 0; margin-bottom: 50px; }
+footer .footer-topbar { background: #000; padding: 45px 0; margin-bottom: 50px; }
 footer .footer-top, footer .footer-top .widget ul li a, footer .calendar_wrap caption { color: #ffffff; }
 footer .footer-top .widget ul { padding: 0; margin: 0; }
 footer .footer-top .widget ul.iq-contact { padding-left: 0px; }
@@ -1086,6 +1086,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
