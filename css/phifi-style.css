@@ -220,7 +220,7 @@ footer .footer-top .mc4wp-form p { margin-bottom: 0; }
 footer .footer-topbar .subscribe-title { font-weight: 500; }
 footer .info-share { list-style: none; padding-left: 0; }
 footer .info-share li { display: inline-block; }
-footer .info-share li a { color: #f05c42; background-color: #ffffff; height: 40px; width: 40px; border: 1px solid #ffffff; text-align: center; display: inline-block; line-height: 40px; vertical-align: middle; margin-right: 10px; border-radius: 90px; }
+footer .info-share li a { color: #0062ff; background-color: #ffffff; height: 40px; width: 40px; border: 1px solid #ffffff; text-align: center; display: inline-block; line-height: 40px; vertical-align: middle; margin-right: 10px; border-radius: 90px; }
 footer .info-share li a:hover { border-color: #f05c42; background-color: #f05c42; color: #ffffff; }
 footer .iq-call { text-decoration: none; border-right: 1px solid #fff; padding: 0 15px 0 32px; }
 footer .iq-call:before { position: absolute; left: 0; bottom: 0; content: "\f2a0"; font-size: 24px; font-family: 'FontAwesome'; }
@@ -1086,6 +1086,7 @@ input[type=email]:hover { border-color: #f05c42; }
 .banner-text .row .col-md-12{
 margin:auto;
 }
+
 
 
 
