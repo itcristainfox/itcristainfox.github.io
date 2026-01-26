@@ -80,7 +80,7 @@ hr { margin: 0; padding: 0px; border-bottom: 1px solid #eeeeee; display: block; 
 Text color
 -----------------------------------------------------------------------*/
 .main-color { color: #f05c42; }
-.text-white { color: #f05c42; }
+.text-white { color: #fff; }
 .text-black { color: #0b0b0b; }
 .text-gray { color: #5e7290; }
 
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
