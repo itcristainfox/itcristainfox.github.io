@@ -132,7 +132,7 @@ header .sub-main ul li a:hover i { color: #f05c42; }
 header .sub-main ul li a i { color: #e4594b; font-size: 20px; }
 
 /* Header sticky */
-header.menu-sticky { position: fixed; padding: 15px 0; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); background: #fff; margin-top: 0px; }
+header.menu-sticky { position: fixed; padding: 15px 0; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); background: #000; margin-top: 0px; }
 header.menu-sticky .navbar .navbar-brand img { height: 30px; }
 header .navbar ul li { list-style: none; margin-left: 25px; position: relative; vertical-align: middle; }
 header li .search-box input[type="search"] { height: 40px; font-size: 18px; display: inline-block; border: none; border-radius: 0; outline: none; padding: 15px 40px 15px 15px; width: 0px; position: absolute; top: -9px; right: 0; background: none; transition: width 0.4s cubic-bezier(0, 0.795, 0, 1); cursor: pointer; z-index: 11; margin: -10px 0 0 0; }
@@ -1092,6 +1092,7 @@ margin:auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 
