@@ -1087,6 +1087,11 @@ input[type=email]:hover { border-color: #f05c42; }
 margin:auto;
 }
 
+.highlight {
+    background: linear-gradient(120deg, #0062ff, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
