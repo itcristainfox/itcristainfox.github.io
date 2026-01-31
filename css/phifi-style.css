@@ -1088,10 +1088,11 @@ margin:auto;
 }
 
 .highlight {
-    background: linear-gradient(120deg, #0062ff, #00d4ff);
+    background:linear-gradient(90deg, #1e3cff, #6a00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 
