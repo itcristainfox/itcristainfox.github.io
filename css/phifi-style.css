@@ -1088,7 +1088,12 @@ margin:auto;
 }
 
 .highlight {
-   background: linear-gradient(90deg, #0052ff, #00d4ff);
+   background: linear-gradient(
+    90deg,
+    #0b1f3a,   /* deep navy */
+    #0d4b8c,   /* royal blue */
+    #00a6d6    /* cyan blue */
+  );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1097,6 +1102,7 @@ margin:auto;
 width:50%;
 }
 }
+
 
 
 
