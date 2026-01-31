@@ -131,7 +131,7 @@ Button
 .iq-button.iq-btn-link, .iq-btn-link { font-weight: 500; color: #0b0b0b; background: transparent; padding: 0; }
 
 /*button Hover Effect */
-.iq-button:hover, .iq-button:focus { color: #ffffff; background: #0b0b0b; text-decoration: inherit; }
+.iq-button:hover, .iq-button:focus { color: #000; background: #fff; text-decoration: inherit; }
 .iq-btn-outline:hover, .iq-btn-outline:focus { border-color: #0b0b0b; color: #ffffff; }
 .iq-btn-link:hover, .iq-btn-link:focus { color: #0b0b0b; background: transparent; }
 
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
