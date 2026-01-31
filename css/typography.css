@@ -49,7 +49,7 @@ Import Css
 -----------------------------------------------------------------------*/
 *::-moz-selection { background: #f05c42; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #f05c42; color: #fff; text-shadow: none; }
-::selection { background: #f05c42; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
 html, body { overflow-x: hidden; }
 body { font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: normal; line-height: 26px; color: #525564; position: relative; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #59597e; }
@@ -143,7 +143,7 @@ Button
 .iq-title-box .iq-title-desc { margin-top: 15px; margin-bottom: 0; }
 .iq-title-box { margin-bottom: 60px; }
 .iq-title-box i { font-size: 30px; margin-bottom: 15px; }
-.iq-title-box .iq-line { width: 130px; height: 10px; background: linear-gradient(180deg, #0048bd 0%, #176fe2 100%);; margin-bottom: 0px; position: absolute; top: 41px; left: 0; right: 0; margin: 0 auto; z-index: -1; }
+.iq-title-box .iq-line { width: 130px; height: 3px; background: linear-gradient(180deg, #0048bd 0%, #176fe2 100%);; margin-bottom: 0px; position: absolute; top: 43px; left: 0; right: 0; margin: 0 auto; z-index: -1; }
 .iq-title-box .iq-line.two { width: 265px; left: 54px; margin: 0; }
 .iq-title-box .iq-line.three { left: 87px; margin: 0; }
 .iq-title-box .iq-line.four { width: 142px; left: auto; right: 99px; margin: 0; }
@@ -201,6 +201,7 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 .iq-ml-15 { margin-left: 15px; }
 
 .iq-mb-60 { margin-bottom: 60px; }
+
 
 
 
