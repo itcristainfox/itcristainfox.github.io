@@ -413,7 +413,7 @@ Banner
 .iq-team-blog .iq-team-img img { width: 100%; }
 { opacity: 1; }
 .iq-team-blog:hover .iq-team-info { margin-top: -24px; }
-.iq-team-blog .iq-team-info { opacity: 0; background: transparent; z-index: 2; margin-left: 10px; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; overflow: hidden; position: relative; position: absolute; bottom: 0; bottom: 15px; display: inline-block; left: 15px; right: 0; }
+.iq-team-blog .iq-team-info { opacity: 1; background: transparent; z-index: 2; margin-left: 10px; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; overflow: hidden; position: relative; position: absolute; bottom: 0; bottom: 15px; display: inline-block; left: 15px; right: 0; }
 .iq-team-blog .iq-team-info .member-text { color: #ffffff; margin-bottom: 10px; }
 .iq-team-blog .iq-team-info span.designation-text { color: #ffffff; }
 .iq-team-blog .iq-team-social { position: absolute; top: 15px; right: 15px; z-index: 9; opacity: 0; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
@@ -1102,6 +1102,7 @@ margin:auto;
 width:50%;
 }
 }
+
 
 
 
